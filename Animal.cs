@@ -17,5 +17,10 @@ namespace Prakt1
             Breed = breed;
             Age = age;
         }
+        public Animal() {
+            Name = "";
+            Breed = "";
+            Age = 0;
+        }
     }
 }
